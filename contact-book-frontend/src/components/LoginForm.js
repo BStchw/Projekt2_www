@@ -20,7 +20,12 @@ const LoginForm = ({ onLogin, onRegisterClick }) => {
             if (response.ok) {
                 const { token } = await response.json();
                 onLogin(token);
-            } else {
+            }
+            const responseData = await response.json();
+            if (response.status === 401 && responseData.error === 'Nieprawidłowa nazwa użytkownika lub hasło') {
+                alert('Nieprawidłowa nazwa użytkownika lub hasło');
+            }
+            else {
                 console.error('Błąd logowania');
             }
         } catch (error) {

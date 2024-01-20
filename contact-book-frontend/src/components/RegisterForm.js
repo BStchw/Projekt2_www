@@ -8,7 +8,6 @@ const RegisterForm = ({ onRegister }) => {
         e.preventDefault();
 
         try {
-            console.log('Przedotrzymaniem odpowiedzi rejestracji');
             const response = await fetch('http://localhost:3000/register', {
                 method: 'POST',
                 headers: {
@@ -28,7 +27,6 @@ const RegisterForm = ({ onRegister }) => {
                     console.error('Błąd rejestracji');
                 }
             }
-            console.log('Po otrzymaniu odpowiedzi rejestracji');
         } catch (error) {
             console.error('Błąd rejestracji:', error);
         }

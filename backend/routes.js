@@ -81,6 +81,7 @@ router.post('/login', async (req, res) => {
             console.error('Błąd podczas logowania:', err.message);
             res.status(500).json({ error: 'Błąd logowania' });
         } else if (!user) {
+            console.log('Nieprawidłowa nazwa użytkownika lub hasło');
             res.status(401).json({ error: 'Nieprawidłowa nazwa użytkownika lub hasło' });
         } else {
             // Sprawdzenie hasła
