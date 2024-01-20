@@ -40,6 +40,23 @@ Projekt to aplikacjia-książka kontaktowa, która pozwala na zarządzanie wspó
 Aby pobrać projekt należy skorzystać ze standardowego polecenia: 
 ```bash
 git clone https://github.com/BStchw/Projekt2_www.git
+```
+Nastepnie należy przejść do katalogu server i użyć polecenia:
+```bash
+npm install
+```
+, aby zainstalować wszystkie zależności i 
+```bash
+npm start
+```
+, aby uruchomić serwer.
 
-Nastepnie należy przejść do katalogu server i użyć polecenia npm install, aby zainstalować wszystkie zależności i npm start, aby uruchomić serwer.
-Nastepnie należy przejść do katalogu contact-book-frontend i użyć polecenia npm install, aby zainstalować wszystkie zależności i npm start, aby uruchomić klienta. 
+Nastepnie należy przejść do katalogu contact-book-frontend i użyć polecenia 
+```bash
+npm install
+```
+, aby zainstalować wszystkie zależności i 
+```bash
+npm start
+```
+, aby uruchomić klienta. 
