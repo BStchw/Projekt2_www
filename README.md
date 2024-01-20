@@ -54,7 +54,7 @@ W celu zainstalowania wszystkich zależności w kliencie należy przejść do ka
 ```bash
 npm install
 ```
-następnie aby uruchomić klienta.
+następnie aby uruchomić klienta:
 ```bash
 npm start
 ```
