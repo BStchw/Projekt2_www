@@ -41,22 +41,20 @@ Aby pobrać projekt należy skorzystać ze standardowego polecenia:
 ```bash
 git clone https://github.com/BStchw/Projekt2_www.git
 ```
-Nastepnie należy przejść do katalogu server i użyć polecenia:
+Nastepnie należy przejść do katalogu server i aby zainstalować wszystkie zależności użyć polecenia:
 ```bash
 npm install
 ```
-, aby zainstalować wszystkie zależności i 
+następnie aby uruchomić serwer:
 ```bash
 npm start
 ```
-, aby uruchomić serwer.
 
-Nastepnie należy przejść do katalogu contact-book-frontend i użyć polecenia 
+W celu zainstalowania wszystkich zależności w kliencie należy przejść do katalogu contact-book-frontend i użyć polecenia 
 ```bash
 npm install
 ```
-, aby zainstalować wszystkie zależności i 
+następnie aby uruchomić klienta.
 ```bash
 npm start
 ```
-, aby uruchomić klienta. 
